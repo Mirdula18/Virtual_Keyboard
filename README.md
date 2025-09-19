@@ -31,20 +31,47 @@ NumPy – array operations
 
 Clone the repository:
 
-git clone https://github.com/your-username/virtual-keyboard-gesture.git
-cd virtual-keyboard-gesture
+1. **git clone https://github.com/your-username/virtual-keyboard-gesture.git**
 
+2. **cd virtual-keyboard-gesture**
+
+Environment Setup:
+
+Install Python (3.9 or higher recommended)
+
+Download Python and make sure python and pip are added to PATH.
+
+Create a virtual environment:
+
+3. **python -m venv venv**
+
+
+4. Activate the virtual environment
+
+On Windows:
+
+**venv\Scripts\activate**
+
+
+On Mac/Linux:
+
+**source venv/bin/activate**
+
+
+Upgrade pip (recommended)
+
+5. **python -m pip install --upgrade pip**
 
 Install dependencies:
 
-pip install opencv-python mediapipe pyautogui numpy
+6. **pip install -r requirements.txt**
 
 
 ▶️**How to Run**
 
 Run the following command:
 
-python run_keyboard.py
+7. **python run_keyboard.py**
 
 
 ⌨️ **Usage**
@@ -54,5 +81,6 @@ python run_keyboard.py
 -> Move your index finger over the on-screen keyboard to select a key.
 
 -> Perform a pinch gesture (thumb + index) to press the key.
+
 
 -> Press q to quit the program.
