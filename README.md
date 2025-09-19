@@ -1,10 +1,11 @@
 # Virtual Keyboard using Hand Gestures (OpenCV + MediaPipe)
 
+
 This project implements a virtual keyboard that can be controlled using hand gestures captured via a webcam.
 Instead of pressing physical keys, you can move your hand and perform a pinch gesture (index + thumb) to press keys.
 The keyboard appears on the screen, and detected inputs are simulated on your computer (you can type in Google, Notepad, etc.).
 
-✨ **Features**
+✨ Features
 
 -> Virtual on-screen keyboard
 
@@ -12,11 +13,11 @@ The keyboard appears on the screen, and detected inputs are simulated on your co
 
 -> Pinch gesture detection to press keys (avoids unwanted presses)
 
-->Keys are highlighted when selected
+-> Keys are highlighted when selected
 
 -> Works with any application (browser, text editor, etc.)
 
-🛠️ **Tech Stack**
+🛠️ Tech Stack
 
 OpenCV – computer vision and drawing the keyboard
 
@@ -30,20 +31,21 @@ NumPy – array operations
 
 Clone the repository:
 
-1. git clone https://github.com/your-username/virtual-keyboard-gesture.git
-
-2. cd virtual-keyboard-gesture
+git clone https://github.com/your-username/virtual-keyboard-gesture.git
+cd virtual-keyboard-gesture
 
 
 Install dependencies:
 
-3. pip install opencv-python mediapipe pyautogui numpy
+pip install opencv-python mediapipe pyautogui numpy
 
-▶️ **How to Run**
+
+▶️**How to Run**
 
 Run the following command:
 
-4. python run_keyboard.py
+python run_keyboard.py
+
 
 ⌨️ **Usage**
 
